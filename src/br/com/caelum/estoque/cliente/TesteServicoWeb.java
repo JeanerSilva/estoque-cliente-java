@@ -1,6 +1,6 @@
 package br.com.caelum.estoque.cliente;
 
-public class TesteServicoWWeb {
+public class TesteServicoWeb {
  public static void main(String[] args) {
 
 		EstoqueWS cliente = new EstoqueWS_Service().getEstoqueWSPort();

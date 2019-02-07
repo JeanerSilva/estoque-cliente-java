@@ -66,4 +66,11 @@ public class ListaItens {
         return this.item;
     }
 
+	@Override
+	public String toString() {
+		return "\nListaItens [item=" + item + "]";
+	}
+
+    
+    
 }
